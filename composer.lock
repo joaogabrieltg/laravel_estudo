@@ -1252,6 +1252,7 @@
         },
         {
             "name": "laravel/prompts",
+<<<<<<< HEAD
             "version": "v0.1.19",
             "source": {
                 "type": "git",
@@ -1262,6 +1263,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/0ab75ac3434d9f610c5691758a6146a3d1940c18",
                 "reference": "0ab75ac3434d9f610c5691758a6146a3d1940c18",
+=======
+            "version": "v0.1.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/prompts.git",
+                "reference": "bf9a360c484976692de0f3792f30066f4f4b34a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/bf9a360c484976692de0f3792f30066f4f4b34a2",
+                "reference": "bf9a360c484976692de0f3792f30066f4f4b34a2",
+>>>>>>> e4d9e7b (laravel init)
                 "shasum": ""
             },
             "require": {
@@ -1303,9 +1316,15 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/prompts/tree/v0.1.19"
             },
             "time": "2024-04-16T14:20:35+00:00"
+=======
+                "source": "https://github.com/laravel/prompts/tree/v0.1.20"
+            },
+            "time": "2024-04-18T00:45:25+00:00"
+>>>>>>> e4d9e7b (laravel init)
         },
         {
             "name": "laravel/serializable-closure",
@@ -6134,6 +6153,7 @@
         },
         {
             "name": "laravel/pint",
+<<<<<<< HEAD
             "version": "v1.15.1",
             "source": {
                 "type": "git",
@@ -6144,6 +6164,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/5f288b5e79938cc72f5c298d384e639de87507c6",
                 "reference": "5f288b5e79938cc72f5c298d384e639de87507c6",
+=======
+            "version": "v1.15.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "2c9f8004899815f3f0ee3cb28ef7281e2b589134"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/2c9f8004899815f3f0ee3cb28ef7281e2b589134",
+                "reference": "2c9f8004899815f3f0ee3cb28ef7281e2b589134",
+>>>>>>> e4d9e7b (laravel init)
                 "shasum": ""
             },
             "require": {
@@ -6154,6 +6186,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.52.1",
                 "illuminate/view": "^10.48.4",
                 "larastan/larastan": "^2.9.2",
@@ -6161,6 +6194,15 @@
                 "mockery/mockery": "^1.6.11",
                 "nunomaduro/termwind": "^1.15.1",
                 "pestphp/pest": "^2.34.5"
+=======
+                "friendsofphp/php-cs-fixer": "^3.54.0",
+                "illuminate/view": "^10.48.8",
+                "larastan/larastan": "^2.9.5",
+                "laravel-zero/framework": "^10.3.0",
+                "mockery/mockery": "^1.6.11",
+                "nunomaduro/termwind": "^1.15.1",
+                "pestphp/pest": "^2.34.7"
+>>>>>>> e4d9e7b (laravel init)
             },
             "bin": [
                 "builds/pint"
@@ -6196,7 +6238,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2024-04-02T14:28:47+00:00"
+=======
+            "time": "2024-04-23T15:42:34+00:00"
+>>>>>>> e4d9e7b (laravel init)
         },
         {
             "name": "laravel/sail",
@@ -8503,6 +8549,7 @@
         },
         {
             "name": "spatie/backtrace",
+<<<<<<< HEAD
             "version": "1.5.3",
             "source": {
                 "type": "git",
@@ -8513,6 +8560,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/backtrace/zipball/483f76a82964a0431aa836b6ed0edde0c248e3ab",
                 "reference": "483f76a82964a0431aa836b6ed0edde0c248e3ab",
+=======
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/backtrace.git",
+                "reference": "8373b9d51638292e3bfd736a9c19a654111b4a23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/backtrace/zipball/8373b9d51638292e3bfd736a9c19a654111b4a23",
+                "reference": "8373b9d51638292e3bfd736a9c19a654111b4a23",
+>>>>>>> e4d9e7b (laravel init)
                 "shasum": ""
             },
             "require": {
@@ -8520,6 +8579,10 @@
             },
             "require-dev": {
                 "ext-json": "*",
+<<<<<<< HEAD
+=======
+                "laravel/serializable-closure": "^1.3",
+>>>>>>> e4d9e7b (laravel init)
                 "phpunit/phpunit": "^9.3",
                 "spatie/phpunit-snapshot-assertions": "^4.2",
                 "symfony/var-dumper": "^5.1"
@@ -8549,7 +8612,11 @@
                 "spatie"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/spatie/backtrace/tree/1.5.3"
+=======
+                "source": "https://github.com/spatie/backtrace/tree/1.6.1"
+>>>>>>> e4d9e7b (laravel init)
             },
             "funding": [
                 {
@@ -8561,7 +8628,11 @@
                     "type": "other"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-06-28T12:59:17+00:00"
+=======
+            "time": "2024-04-24T13:22:11+00:00"
+>>>>>>> e4d9e7b (laravel init)
         },
         {
             "name": "spatie/flare-client-php",
